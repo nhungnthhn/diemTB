@@ -11,6 +11,5 @@ function tinhtong() {
     let n = parseFloat(TB); TB = Math.round(n * 100)/100;
 
 // In kết quả ra màn hình
-    document.write("Điểm tổng nà: " + tong + "<br>");
-    document.write("Điểm TB xún dòng nà: "+ TB)
+    document.write("Điểm tổng nà: " + tong + "<br>" + "Điểm TB xún dòng nà: " + TB);
 }
